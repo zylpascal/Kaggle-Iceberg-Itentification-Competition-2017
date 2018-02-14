@@ -2,7 +2,8 @@
 """
 Created on Sun Nov 19 13:00:12 2017
 
-@author: yzhu16
+@author:Yongli Zhu
+yzhu16@vols.utk.edu
 """
 
 
@@ -101,7 +102,7 @@ np.save(path+'Xval_dual', Xval)
 #Xval = Xval.reshape((len(Xval),58,97,2))
 
 
-# Add incidence anggle: way-2: 
+# Add incidence angle: way-2: 
 '''
  Xnew= Band_1*cos(phi)+Band_2*sin(phi)  Dec.12.2017
  '''
@@ -179,7 +180,7 @@ Xte.shape
 np.save(path+'Xte_dual', Xte)
 
 
-# Add incidence anggl + Dual Band: way-2:
+# Add incidence angle + Dual Band: way-2:
 '''
  Xnew= Band_1*cos(phi)+Band_2*sin(phi)  Dec.12.2017
  '''
